@@ -1,0 +1,30 @@
+RGB
+red         green       blue
+0-255       0-255       0-255   
+
+255         0           0    red
+0           0           255  blue
+0           255         0    lime
+0           128         0    green
+255         255         255  white
+0           0           0    black
+128         128         128  grey / gray
+
+0           255         255  aqua / cyan
+255         0           255  magenta
+255         255         0    yellow
+
+CMYK
+
+
+
+
+
+
+
+
+
+
+
+
+

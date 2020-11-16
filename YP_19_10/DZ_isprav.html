@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .site {
+            width: 60%;
+            height: 100vh;
+            margin: 0 auto;
+        }
+
+        .block1 {
+            height: 70px;
+            background: rgb(255, 5, 5);
+            margin: 5px 0;
+        }
+
+        .block2 {
+            height: 80px;
+            background: rgb(35, 233, 78);
+        }
+
+        .daddy {
+            height: calc(100% - 255px);
+            background: lightblue;
+            margin: 5px 0;
+            font-size: 0;
+        }
+
+        .block3 {
+            height: 100%;
+            background: blue;
+            width: calc(80% - 5px);
+            display: inline-block;
+            font-size: 20px;
+            margin-right: 5px;
+        }
+
+        .block4 {
+            height: 100%;
+            background: rgb(249, 69, 255);
+            width: 20%;
+            display: inline-block;
+            vertical-align: top;
+            font-size: 20px;
+        }
+
+        .block5 {
+            height: 90px;
+            background: rgb(156, 70, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div> Hello</div> -->
+    <div class="site">
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="daddy">
+            <div class="block3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sit. Quidem velit optio quis nostrum natus aliquid delectus dolores maiores aperiam non, recusandae doloribus, culpa dolorum eos dolore obcaecati aspernatur.</div>
+            <div class="block4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia iure quia placeat, similique ut, commodi veniam dolorum aut voluptate distinctio ea doloribus quidem facilis labore! Soluta eveniet laborum minima ut?</div>
+        </div>
+        <div class="block5"></div>
+    </div>
+
+</body>
+
+</html>

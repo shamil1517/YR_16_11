@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    .box {
+        background: #8566c4; 
+        /*
+         px, % - относительно родителя
+        vh - viewport height
+        vw - viewport width
+        */
+        width: 300px ; /*Ширина*/
+        /* height: 500px; */
+        /* height: 100%;  высота в процентах - плохо! */
+        /*height: 50vh;/*50 % от высота экрана*/
+        border-width: 10px;
+        border-color: rgb(49, 255, 60);
+        border-style: dashed;/* botted | solid | dashed | double | node */
+        border:solid 10px crimson;
+        border-bottom-color: rgb(255, 225, 90) ;
+        /* border-radius: 15px 01px 20px 05px ; */
+        padding: 50px 100px 10px 100px;
+        /* text-align: justify; 
+        color: #dedede;
+        font: 20px / 1 sans-serif ;*/
+        /* 
+        padding: 50px; со всех сторон
+        padding: 50px 100px; вертикаль горизонтали
+        padding: 50px 100px 10px ; верх горизонталь низ
+        padding: 50px 100px 10px 100px; вверх право низ лево
+         */
+         padding: 50px 100px 50px 100px;
+        text-align: justify; 
+        color: #4eff48 ;
+        font: 20px / 1 sans-serif ;
+        margin: 50px auto 100px;
+
+        }
+.menu{
+width: 520px;
+background: orangered;
+margin: 0 auto;
+padding: 0;
+list-style-type: none ; /*убрать маркер у списка*/
+font-size: 0;
+}
+.menu li {
+    width: calc(100%/3 - 2px) ;
+    height: 50px;
+    border: dotted 1px; 
+    display: inline-block ;/* block | inline*/
+    font-size: 15px;
+    text-align: center ;
+    line-height: 50px ; /*высота строки = высота тега => строчка с текстом по центру по вертикале */
+}
+.menu a{
+    background: yellow;
+    color: forestgreen;
+    text-decoration: none;/* черточка в тексте*/
+    display: block;
+}
+.menu a:hover{
+    background: linear-gradient(White, blue , rgb(255, 36, 36));
+    color: yellow;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="">Lorem, ipsum.</a></li>
+        <li><a href="">Commodi, distinctio.</a></li>
+        <li><a href="">Ad, architecto.</a></li>
+    </ul>
+    <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, odit sit. Suscipit qui earum officia dolorum! Aut possimus, assumenda sapiente at sequi voluptatem nesciunt animi molestias, blanditiis impedit, velit deserunt harum dignissimos culpa nobis error provident inventore expedita ut repudiandae sunt distinctio. Voluptas tempore distinctio itaque saepe asperiores ea iste nobis. Iure maxime tempore natus. Architecto, quo animi. Fuga distinctio ea nobis at expedita voluptas dolorem voluptatibus, porro suscipit iusto!</div>
+    
+</body>
+</html>

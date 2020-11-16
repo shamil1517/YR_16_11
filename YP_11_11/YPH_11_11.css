@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font: 50 sans-serif;
+    background: #F2A950;
+    padding: 50px;
+    height: 100vh;
+    box-sizing : contenr-box; /*Размер контента*/
+    box-sizing: border-box;/*размер блока = border + padding + content */
+}
+.root {
+    background: #fff;
+    height: 100%;
+    border-radius: 10px;
+    /* padding: 50px; */
+    box-sizing: border-box;
+    /*overflow*/
+    display:flex; /*Гибкий блок*/
+    flex-direction:  row ;
+    /*
+    flex-direction - направление основной оси
+    row                        слева направо
+    row-reverse           справа налево
+    column                  с верху вниз
+    column-reverse     снизу вверх
+    */
+    justify-content:space-between  ;
+    /*
+    justify-content - расположение элементов вдоль основной оси
+    flex-start                   начать с начала оси
+    flex-end                    закончить у конца оси
+    center
+    space-around           разные отступы вокруг каждого flex-элемент
+    space-between         равное расстояние между flex-элементами
+    */
+     align-items: center;
+    /*
+    alingn-items -- расположение элементов вдоль поперечной оси
+    stretch           растянуть по высоте
+    
+    flex-start 
+    flex-end 
+    */
+}
+.root-item {
+    background: #F26457;
+    width: 150px;
+    /* height: 150px; */
+    padding: 50px;
+    color: #fff;
+    /* margin: 10px; */
+    border-radius: 10px;
+    text-align: center;
+    line-height: 150px;
+}
+.container {
+    background: #fff;
+    height: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+header {
+    height: 70px;
+    /* background: red; */
+    font-size:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+main{
+    height:  calc(100% - 70px);
+    background: url(https://cdnimg.rg.ru/img/content/130/61/93/850e_d_850.jpg) no-repeat center / cover;
+    color: #f2a950;
+    font-size: 70px ;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content:center;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    background: #f2a950;
+    border-radius:50% ;
+}
+.menu{
+    width: 450px;
+    /* background: blue; */
+    display:flex ;
+    justify-content: space-between;
+}
+a {
+    color: #f26457;
+    text-decoration: none;
+    text-transform: uppercase;
+}
